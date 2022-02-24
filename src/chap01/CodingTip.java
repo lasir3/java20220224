@@ -1,4 +1,4 @@
-package chapa01;
+package chap01;
 
 public class CodingTip {
 	// hint : ctrl + space

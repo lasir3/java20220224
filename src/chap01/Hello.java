@@ -1,4 +1,4 @@
-package chapa01;
+package chap01;
 
 public class Hello {
 	//프로그램 실행 진입점
