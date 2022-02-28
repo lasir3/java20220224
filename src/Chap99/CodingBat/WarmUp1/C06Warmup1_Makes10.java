@@ -1,4 +1,4 @@
-package Chap99.CodingBat;
+package Chap99.CodingBat.WarmUp1;
 
 public class C06Warmup1_Makes10 {
 
