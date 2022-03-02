@@ -6,9 +6,9 @@ public class C06Array {
         // 특징 : 순서(index) 가 있음
 
         int i1 = 3; // 하나의 변수에 하나의 값 대입
+        System.out.println(i1);
 
         int[] arr1 = {10, 20, 30}; // int 배열 타입 arr1에 여러개의 int 대입
-
         System.out.println(arr1[0]); // 첫번째 값은 0번 index
         System.out.println(arr1[1]); // 첫번째 값은 1번 index
         System.out.println(arr1[2]); // 첫번째 값은 2번 index

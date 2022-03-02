@@ -1,7 +1,5 @@
 package Chap99.CodingBat.Logic1;
 
-import java.lang.annotation.Retention;
-
 public class C02Logic1_DataFashion {
 
     // You and your date are trying to get a table at a restaurant. The parameter
