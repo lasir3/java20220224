@@ -1,6 +1,46 @@
 package Chap99.CodingBat.Array;
 
 public class Array2 {
+
+	public int[] shiftLeft(int[] nums) {
+		int[] result = new int[nums.length];
+		
+		for (int i = 0; i < nums.length; i++) {
+		  result[i] = nums[(i+1) % nums.length];
+		}
+		return result;
+	  }
+	  
+
+	public int[] fizzArray3(int start, int end) {
+		// int[] result = new int[end - start];
+		// int j = start;
+		// for (int i = 0; i < result.length; i++) {
+		//   result[i] = j;
+		//   j++;
+		// }
+		// return result;
+		int[] arr = new int[end - start];
+
+		for (int i = start; i < end; i++) {
+			arr[i - start] = i;
+		}
+
+		return arr;
+
+	  }
+	  
+
+	public int[] fizzArray(int n) {
+		int[] arr = new int[n];
+		
+		for(int i = 0; i < n; i++){
+		  arr[i] = i;
+		}
+		return arr;
+		
+	  }
+	  
 	public boolean lucky13(int[] nums) {
 
 		boolean has1 = false;
