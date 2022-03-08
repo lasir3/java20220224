@@ -1,4 +1,4 @@
-package Chap99.CodingBat;
+package Chap99.CodingBat.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
