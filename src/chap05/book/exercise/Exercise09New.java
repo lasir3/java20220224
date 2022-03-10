@@ -2,7 +2,7 @@ package chap05.book.exercise;
 
 import java.util.Scanner;
 
-public class Exercise09 {
+public class Exercise09New {
 	public static void main(String[] args) {
 		boolean run = true;
 		int studentNum = 0;
@@ -30,7 +30,6 @@ public class Exercise09 {
 					for(int i = 0; i < scores.length; i++) {
 						System.out.print("scores["+ i + "]>");
 						scores[i] = scanner.nextInt();
-
 					}
 				}
 			} else if(selectNo == 3) {
@@ -41,19 +40,15 @@ public class Exercise09 {
 			} else if(selectNo == 4) {
 				// 작성위치
 				double sum = 0;
+				double avg = 0.0;
 				int max = 0;
-				for(int k = 0; k < scores.length; k++) {
-					if(scores[k] > max) {
-						max = scores[k];
-					}
-					sum += scores[k];
+				for(int score : scores) {
+					sum += score;
+					max = (score > max) ? score : max;
 				}
-				System.out.println("학생수:" + studentNum);
-				System.out.println(sum);
+				avg = sum / scores.length;				
 				System.out.println("최고 점수:" + max);
-				System.out.println("평균 점수:" + (sum / studentNum));
-				
-				
+				System.out.println("평균 점수:" + (sum / studentNum));	
 			} else if(selectNo == 5) {
 				run = false;
 			}
