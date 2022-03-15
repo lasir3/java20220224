@@ -1,4 +1,4 @@
-package chap07.book.exercise.exercise06;
+package chap07.book.exercise.p06;
 
 public class ChildeExample {
 	public static void main(String[] args) {
