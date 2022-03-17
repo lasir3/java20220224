@@ -1,6 +1,6 @@
 package chap08.lecture.p01interface;
 
-public interface Myinterface2 {
+public interface MyInterface2 {
 	// 인터페이스에 작성되는 필드는
 	// 모두 public static final
 	int FIELD1 = 3;
