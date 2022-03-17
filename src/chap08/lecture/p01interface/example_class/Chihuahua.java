@@ -8,4 +8,9 @@ public class Chihuahua extends Canine implements Pet {
 		
 	}
 
+	@Override
+	public void roll() {
+		System.out.println("치와와가 구릅니다.");
+	}
+
 }

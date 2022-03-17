@@ -8,4 +8,9 @@ public class Cat extends Feline implements Pet {
 		
 	}
 
+	@Override
+	public void roll() {
+		System.out.println("고양이가 무시합니다.");
+	}
+
 }
