@@ -13,4 +13,9 @@ public class Cat extends Feline implements Pet {
 		System.out.println("고양이가 무시합니다.");
 	}
 
+	// interface의 default method도 재정의 가능함
+	@Override
+	public void sit() {
+		System.out.println("고양이가 도망갑니다.");
+	}
 }
