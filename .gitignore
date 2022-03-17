@@ -31,3 +31,11 @@ lib/junit-platform-console-standalone-1.8.2.jar
 .metadata/.mylyn/repositories.xml.zip
 .metadata/.log
 .metadata/.lock
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml
+src/.idea/misc.xml
+src/.idea/modules.xml
+src/.idea/vcs.xml
+src/.idea/workspace.xml
+src/java20220224.iml
