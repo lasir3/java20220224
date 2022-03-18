@@ -1,0 +1,7 @@
+package chap09.lecture.p02anonymous;
+
+public class MyClass1 implements MyInterface1{
+	public void method1() {
+		System.out.println("마이클래스1에서 재정의한 메소드1");
+	}
+}
