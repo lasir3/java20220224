@@ -60,4 +60,24 @@ public class Warmup1 {
 	public boolean sleepIn(boolean weekday, boolean vacation) {
 		return !weekday || vacation;
 	}
+
+	public boolean nearHundred(int n) {
+		int diff100 = Math.abs(100 - n);
+		int diff200 = Math.abs(200 - n);
+
+		return diff100 <= 10 || diff200 <= 10;
+	}
+
+	public int close10(int a, int b) {
+		int a10 = Math.abs(10 - a);
+		int b10 = Math.abs(10 - b);
+		if (a10 > b10) {
+			return b;
+		} else if (a10 < b10) {
+			return a;
+		} else {
+			return 0;
+		}
+	}
+
 }
