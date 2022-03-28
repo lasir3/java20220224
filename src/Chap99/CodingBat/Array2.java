@@ -1,4 +1,4 @@
-package Chap99.CodingBat.Array;
+package Chap99.CodingBat;
 
 public class Array2 {
 

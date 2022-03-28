@@ -10,7 +10,11 @@ public class Car {
         this.model = model;
     }
 
-    //메소드
+    public Car() {
+		// TODO Auto-generated constructor stub
+	}
+
+	//메소드
     void setSpeed(int speed) {
         this.speed = speed;
     }
