@@ -1,5 +1,7 @@
 package Chap99.LeetCode;
 
+import java.util.Arrays;
+
 public class Solution2160 {
     public int minimumSum(int num) {
         int[] nums = new int[4];
