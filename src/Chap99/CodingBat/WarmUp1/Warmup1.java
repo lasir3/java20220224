@@ -26,11 +26,6 @@ public class Warmup1 {
 		}
 	}
 
-	public boolean nearHundred(int n) {
-		// return (n >= 90 && n <= 110) || (n >= 190 && n <= 210);
-		return Math.abs(100 - n) <= 10 || Math.abs(200 - n) <= 10;
-	}
-
 	public boolean makes10(int a, int b) {
 
 		int sum = a + b;
@@ -61,11 +56,16 @@ public class Warmup1 {
 		return !weekday || vacation;
 	}
 
-	public boolean nearHundred(int n) {
+	public boolean nearHundred_1(int n) {
 		int diff100 = Math.abs(100 - n);
 		int diff200 = Math.abs(200 - n);
 
 		return diff100 <= 10 || diff200 <= 10;
+	}
+	
+	public boolean nearHundred2_2(int n) {
+		// return (n >= 90 && n <= 110) || (n >= 190 && n <= 210);
+		return Math.abs(100 - n) <= 10 || Math.abs(200 - n) <= 10;
 	}
 
 	public int close10(int a, int b) {
