@@ -1,4 +1,4 @@
-package chap99.codingbat;
+package Chap99.CodingBat;
 
 import java.util.List;
 
