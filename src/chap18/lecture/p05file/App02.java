@@ -14,7 +14,10 @@ public class App02 {
 		
 		path = "output/other";
 		File file2 = new File(path);
-		
 		file2.mkdir();
+		
+		path = "output/other1/other2/other3";
+		File file3 = new File(path);
+		file3.mkdirs(); // 여러폴더 만들기
 	}
 }
