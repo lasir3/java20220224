@@ -1,4 +1,4 @@
-package chap15.lecture.p03Map;
+package chap15.lecture.p03map;
 
 import java.util.HashMap;
 import java.util.Map;
